@@ -1,0 +1,45 @@
+Blockchain Simulation
+Block 0:
+  Timestamp: 1749297867.8032687
+  Data: Genesis Block
+  Previous Hash: 0
+  Hash: 8c1640d87efc4d246e9e28629d87bd7950f161a2777c1b76506ea95cb4a8f16f
+
+Block 1:
+  Timestamp: 1749297867.8032687
+  Data: Block 1 Data
+  Previous Hash: 8c1640d87efc4d246e9e28629d87bd7950f161a2777c1b76506ea95cb4a8f16f
+  Hash: 79cb5f777ec11f699ed6bc362832516ac7c22a5cd0aee1c0989b8f015d36c08c
+
+Block 2:
+  Timestamp: 1749297867.8032687
+  Data: Block 2 Data
+  Previous Hash: 79cb5f777ec11f699ed6bc362832516ac7c22a5cd0aee1c0989b8f015d36c08c
+  Hash: dabb789d946321e668950d395d2bb21c6b9d20d992f0d81007417d4cddb469d6
+
+Block 3:
+  Timestamp: 1749297867.8032687
+  Data: Block 3 Data
+  Previous Hash: dabb789d946321e668950d395d2bb21c6b9d20d992f0d81007417d4cddb469d6
+  Hash: be73ac6636b972cfe8733047e026649c22f61f6e27e467d0fe29da9bc2229494
+
+After tampering with Block 1:
+...
+  Data: Block 3 Data
+  Previous Hash: b9fbdd18845fb2c684af598abd1b6b263d470960266e27aafd8143000149eab6
+  Hash: b91444ad239b1fd2627e4d734339dc14e5db8bad5f2af04d7c0522c0926d6f3e
+
+Mining Simulation
+
+Block mined with nonce: 157396 and hash: 0000b1f2dfdf86ed3995b49adaa14cc036902acfd258dcc017409927a2dcfba3
+Time taken to mine Block 1: 0.73 seconds
+
+Consensus Demo
+
+Consensus Mechanism Simulation:
+PoW selected validator with power: 50
+Selection Logic: In Proof of Work (PoW), the validator with the highest computational power is selected to mine the next block.
+PoS selected validator with stake: 67
+Selection Logic: In Proof of Stake (PoS), the validator with the highest stake (investment) is selected to create the next block.
+DPoS selected validator with votes: 19
+Selection Logic: In Delegated Proof of Stake (DPoS), a validator is randomly selected based on the votes they received from stakeholders.
